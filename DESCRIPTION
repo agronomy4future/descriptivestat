@@ -1,0 +1,9 @@
+Package: descriptivestat
+Title: Embedding Descriptive Statistics into the Original Dataset
+Version: 0.0.0.9000
+Authors@R: person(given="JK", family="Kim", email="kimjk@agronomy4future.com", role=c("aut", "cre"))
+Description: This package automatically embed Descriptive Statistics in the dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
