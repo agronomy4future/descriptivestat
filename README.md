@@ -60,9 +60,8 @@ df1= descriptivestat(data= df, group_vars= c("genotype", "thinning"),
                      value_vars= c("area"),
                      output_stats= c("sd","iqr"))
 
-print(head(df1, 5))
+print(df1)
   genotype thinning  area category group_id    sd.area Q1.area Q2.area Q3.area
-  <chr>    <chr>    <dbl> <chr>    <chr>         <dbl>   <dbl>   <dbl>   <dbl>
 1 cv1      control  17.8  mean     cv1_control    2.97    16.1    18.2    20.0
 2 cv1      control   7.56 observed cv1_control   NA       NA      NA      NA  
 3 cv1      control   7.25 observed cv1_control   NA       NA      NA      NA  
